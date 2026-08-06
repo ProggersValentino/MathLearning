@@ -18,7 +18,10 @@ Representing it visually, we can see that for the addition and subtraction, the 
 
 The order does not necessarily matter as long as the **magnitude and direction** are **not changed**. 
 
-In doing so, it naturally fulfills the **parallelogram rule**: when vectors are added and subtracted on the same origin it creates a parallelogram.
+In doing so, it naturally fulfills the **parallelogram rule**:
+
+**Parallelogram rule**: when vectors are added and subtracted on the same origin it creates a parallelogram.
+^parallelogramRule
 
 ![[Pasted image 20260609114437.png]]
 
