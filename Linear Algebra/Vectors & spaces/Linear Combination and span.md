@@ -1,12 +1,19 @@
-[khan acad vid](https://www.khanacademy.org/math/linear-algebra/vectors-and-spaces/linear-combinations/v/linear-combinations-and-span)
+[khan acad vid](https://www.khanacademy.org/math/linear-algebra/vectors-and-spaces/linear-combinations/v/linear-combinations-and-span), [game math chp 3.3.3](https://gamemath.com/book/multiplespaces.html#basis_vectors)
 
 
-Linear Combinations denotes a combination of **scalar multiplication** and **vector addition** to create a new vector which is known as a linear combination.
+Linear Combinations denotes a combination of **scalar multiplication** and **vector addition** to create a new vector which is known as a linear combination which can be represented as follows:
+
+$\vec{v} = (x \; \vec{p}) + (y \; \vec{q}) + (z \; \vec{r})$
+
+The $x,y,z$ is a **coordinate vector** (where all of its components represent scalars) and vectors $\vec{p}, \vec{q}, \vec{r}$ are our [basis vectors](obsidian://open?vault=MathLearning&file=Linear%20Algebra%2FVectors%20%26%20spaces%2FLinear%20Subspaces) which define each direction in a given $R^n$, in the above formula, we are working in $R^3$. The resulting new vector is then a combination of its basis vectors expanded by the coordinate vector. 
+
+A linear combination can also be described as given the basis vectors $p,q,r$, I want to move to a new point of $n$ by $\vec{c} = (x,y,z)$ 
 
 for instance take:
 $\begin{aligned} \vec{a} = \begin{bmatrix} 1 \\ 2 \end{bmatrix} \\[1em] \vec{b} = \begin{bmatrix} 0 \\ 3 \end{bmatrix} \end{aligned}$
 
-if we multiply $\vec{a}$ and $\vec{b}$ by $C$ scalar then we can get any set of numbers within $R^2$ 
+if we multiply $\vec{a}$ and $\vec{b}$ by $C$ scalar then we can get any set of numbers within $R^2$ if the vectors $\vec{a}$ and $\vec{b}$ are [linearly independent](obsidian://open?vault=MathLearning&file=Linear%20Algebra%2FVectors%20%26%20spaces%2FLinear%20Independence). 
+$C = [2, 1]$
 
 $2 \cdot \vec{a} + 1 \cdot \vec{b} = [c_1, c_2]$
 

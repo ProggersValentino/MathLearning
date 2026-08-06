@@ -58,10 +58,11 @@ However, this can't be achieved with 3D spaces, as if we flip the z-axis and try
 As shown above, the normal orientation of a 3D space is dependent on the handedness of the coordinate. This is also for rotations when defining which way should be **negative** and **positive** rotations
 
 
-| Left-hand rule                                  | Right-hand rule                                     |
-| ----------------------------------------------- | --------------------------------------------------- |
-| ![[Pasted image 20260611173407.png]]            | ![[Pasted image 20260611173419.png]]                |
-| Denotes positive rotations happen **Clockwise** | Denote positive rotations happen **Anti-clockwise** |
+| Left-hand rule                                  | Right-hand rule                                        |
+| ----------------------------------------------- | ------------------------------------------------------ |
+| ![[Pasted image 20260611173407.png]]            | ![[Pasted image 20260611173419.png]]                   |
+| Denotes positive rotations happen **Clockwise** | Denote positive rotations happen **counter-clockwise** |
+^angleHandednessRule
 
 The table below showcases different cycles of left- and right-handed rules and how it affects each axis'
 
