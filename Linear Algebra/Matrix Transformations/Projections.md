@@ -8,14 +8,14 @@ The projection vector, if minus against the vector off the line, should create a
 The formal definition of a projection is as follows:
 $Proj_L(\vec{x}) = (\Large{\vec{x} \cdot \vec{v} \over \vec{v} \cdot \vec{v}}) \; \vec{v}$
 
-However, this definition can be further simplified by transforming the $\vec{v} \over {\vec{v} \cdot \vec{v}}$ to $\hat{u}$ due to the definition of a [unit vector](obsidian://open?vault=MathLearning&file=Algebra%2FVectors%2FUnit%20Vectors) where the dot product of two vectors are equivalent to $||\vec{v}||^2$ which if you square root it you get $||\vec{v}||$ being the magnitude. Which if you divide the original vector by its magnitude you will get a unit vector. 
+However, this definition can be further simplified by transforming the $\vec{v} \over {\vec{v} \cdot \vec{v}}$ to $\hat{u}$ due to the definition of a [unit vector](Unit%20Vectors) where the dot product of two vectors are equivalent to $||\vec{v}||^2$ which if you square root it you get $||\vec{v}||$ being the magnitude. Which if you divide the original vector by its magnitude you will get a unit vector. 
 
 Thus the Projection definition can be simplified to:
 $Proj_L(\vec{x}) = (\vec{x} \cdot \hat{u}) \; \hat{u}$
 ^projectionRuleDef
 
 
-Which is one of the geometric definitions of the [dot product](obsidian://open?vault=MathLearning&file=Linear%20Algebra%2FVectors%20%26%20spaces%2FVector%20Dot%20Product%20%26%20Length) where its used to determine the relative direction of a vector from a set line
+Which is one of the geometric definitions of the [dot product](Vector%20Dot%20Product%20and%20Length) where its used to determine the relative direction of a vector from a set line
 
 For instance, if we have a line and a vector:
 
@@ -39,7 +39,7 @@ With the confirmation that a projection is a linear transformation, we can repre
 
 $Proj_L \; : \; R^2 \rightarrow R^2$
 
-To figure out how, we can grab the [identity matrix](obsidian://open?vault=MathLearning&file=Algebra%2FMatrices%2FIdentity%20Matrix) in the given $R^n$ space and apply the projection rule definition to each vectors in the columns of the identity matrix, so it would look like this for this solution:
+To figure out how, we can grab the [identity matrix](Identity%20Matrix) in the given $R^n$ space and apply the projection rule definition to each vectors in the columns of the identity matrix, so it would look like this for this solution:
 ![[Pasted image 20260717210515.png]]
 
 so now anytime we want to find the projection of a vector projected on a line, we apply this matrix to it. For instance if we have:

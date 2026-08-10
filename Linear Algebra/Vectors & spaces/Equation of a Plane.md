@@ -7,7 +7,7 @@ $Ax + By + Cz = D$
 
 which means every $x, y, z$ applied by this equation will determine whether that point is on the plane by outputting either the same constant number defined in the equation or different. 
 
-This can be simplified further by taking a **normal vector** perpendicular to the plane (which defines the orientation of the plane) and a point using the [dot product](obsidian://open?vault=MathLearning&file=Linear%20Algebra%2FVectors%20%26%20spaces%2FVector%20Dot%20Product%20%26%20Length) against them:
+This can be simplified further by taking a **normal vector** perpendicular to the plane (which defines the orientation of the plane) and a point using the [dot product](Vector%20Dot%20Product%20and%20Length) against them:
 
 $\begin{aligned} \vec{n} = a\hat{i} + b\hat{j} + c\hat{k} \\[1em] \vec{a} = (x, y, z) \\[1em] \vec{n} \cdot \vec{a} = D \end{aligned}$
 

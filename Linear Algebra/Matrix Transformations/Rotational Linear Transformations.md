@@ -4,11 +4,11 @@ Rotational linear transformations, in mathematics, is the rotation of any $\vec{
 
 $Rot\theta(\vec{x})$
 
-In [handedness ruling](obsidian://open?vault=MathLearning&file=Linear%20Algebra%2FVectors%20%26%20spaces%2FCoordinate%20Spaces), the mathematics follows a **right-handed coordinate** as the positive rotations happen counter-clockwise. If a rotational linear transformation was happening in a left handed coordinate space then the positive rotation would be happening in a clockwise direction
+In [handedness ruling](Coordinate%20Spaces), the mathematics follows a **right-handed coordinate** as the positive rotations happen counter-clockwise. If a rotational linear transformation was happening in a left handed coordinate space then the positive rotation would be happening in a clockwise direction
 
 ![[Linear Algebra/Vectors & spaces/Coordinate Spaces#^angleHandednessRule]]
 
-Rotational linear transformations are linear transformations as they [satisfy the two rules](obsidian://open?vault=MathLearning&file=Linear%20Algebra%2FMatrix%20Transformations%2FFunction) that all linear transformation must follow. 
+Rotational linear transformations are linear transformations as they [satisfy the two rules](Function) that all linear transformation must follow. 
 
 If we take $Rot\theta(\vec{x} + \vec{y}) = Rot\theta(\vec{x}) + Rot\theta(\vec{y})$ and apply we see that the statement remains true: 
 ![[Pasted image 20260716190404.png]]
@@ -16,7 +16,7 @@ If we take $Rot\theta(\vec{x} + \vec{y}) = Rot\theta(\vec{x}) + Rot\theta(\vec{y
 likewise if we try $Rot\theta(c \; \vec{x}) = c \; Rot\theta(\vec{x})$ we'll see that this statement is also true:
 ![[Pasted image 20260716190643.png]]
 
-So now its confirmed that rotational linear transformations are indeed linear transformations, we know that they can be represented as [matrix vector products](obsidian://open?vault=MathLearning&file=Linear%20Algebra%2FMatrix%20Transformations%2FMatrix%20vector%20products) which means we can represent the transformation as:
+So now its confirmed that rotational linear transformations are indeed linear transformations, we know that they can be represented as [matrix vector products](Matrix%20vector%20products) which means we can represent the transformation as:
 
 $Rot\theta(\vec{x}) = A \cdot \vec{x}$
 

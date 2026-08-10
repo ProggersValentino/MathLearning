@@ -9,7 +9,7 @@ a zero matrix is indicated by the ***'O'*** and if necessary a subscript can be 
 
 ## Operations with zero matrix
 
-because zero matrices are like real numbers, when it comes to [addition, subtraction, and scalar multiplication](obsidian://open?vault=MathLearning&file=Algebra%2FMatrices%2FMatrices%20Basic%20Math%20Operations%20(Addition%2C%20Subtraction%2C%20Scalar%20multiplication)) they perform exactly the same. 
+because zero matrices are like real numbers, when it comes to [addition, subtraction, and scalar multiplication](Matrices%20Basic%20Math%20Operations) they perform exactly the same. 
 
 for instance if we do **A + O*** and vice versa: 
 ![[Pasted image 20260522113406.png]]

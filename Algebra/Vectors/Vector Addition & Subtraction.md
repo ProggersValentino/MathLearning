@@ -32,7 +32,7 @@ For subtracting, we're actually subtracting by $-b$ instead of $b$ which flips t
 ## Adding Vectors from Magnitude and Direction
 [khan acad vid](https://www.khanacademy.org/math/algebra-home/alg-vectors/alg-adding-vectors-in-magnitude-and-direction-form/v/mag-dir-vec-sums)
 
-Given the understanding of [finding vector components from just magnitude and direction](obsidian://open?vault=MathLearning&file=Algebra%2FVectors%2FExtracting%20Vector%20Components%20from%20Magnitude%20%26%20direction), we can combine this with addition to find the new vector.
+Given the understanding of [finding vector components from just magnitude and direction](Extracting%20Vector%20Components%20from%20Magnitude%20and%20direction), we can combine this with addition to find the new vector.
 
 ![[Pasted image 20260610154958.png]]
 

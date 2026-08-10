@@ -34,7 +34,7 @@ we can substitute the linear system into a matrix equation where:
 
 $\begin{aligned} \begin{bmatrix} 2 & 5 \\ -2 & 4 \end{bmatrix} \cdot \begin{bmatrix} s \\ t \end{bmatrix} = \begin{bmatrix} 7 \\ -6 \end{bmatrix} \\[1em] A \; \cdot \;  \overrightarrow{x}\; = \; \overrightarrow{b} \end{aligned}$
 
-and if we follow through on the [matrix multiplication](obsidian://open?vault=MathLearning&file=Algebra%2FMatrices%2FMatrix%20Multiplication) then we will get the linear system we originally started with.
+and if we follow through on the [matrix multiplication](Matrix%20Multiplication) then we will get the linear system we originally started with.
 
 ##### Solving with inverses
 

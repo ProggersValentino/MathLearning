@@ -51,7 +51,7 @@ which as stated before the result of adding rows 1 and 2 replace row 2
 
 ### Systems of equations and matrix row operations
 [khan acad](https://www.khanacademy.org/math/algebra-home/alg-matrices/alg-row-echelon-and-gaussian-elimination/v/matrices-reduced-row-echelon-form-2)
-going back to [augmented matrices](obsidian://open?vault=MathLearning&file=Algebra%2FMatrices%2FLinear%20Systems%20%2B%20Matrices) where each row represents a set equation in order of variables (x, y, z) are first followed by the constants
+going back to [augmented matrices](Linear%20Systems%20and%20Matrices) where each row represents a set equation in order of variables (x, y, z) are first followed by the constants
 ![[Pasted image 20260519174551.png]]
 
 We can use any of the row operations to make a new augmented matrix from the given one created from the linear equations 

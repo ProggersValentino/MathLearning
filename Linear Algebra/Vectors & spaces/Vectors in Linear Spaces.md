@@ -1,11 +1,11 @@
 [khan acad vid](https://www.khanacademy.org/math/linear-algebra/vectors-and-spaces/vectors/v/vector-introduction-linear-algebra)
 
 we already know that:
-![[Intro To Vectors & Scalars#^whatIsAVector]]
+![[Intro To Vectors and Scalars#^whatIsAVector]]
 
 
 and that there are different types that are either vector quantities or non-vector quantities:
-![[Intro To Vectors & Scalars#^d77baf]]
+![[Intro To Vectors and Scalars#^d77baf]]
 
 but in Linear Algebra, Vectors are generally represented like matrices:
 

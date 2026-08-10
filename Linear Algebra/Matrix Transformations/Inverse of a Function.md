@@ -1,6 +1,6 @@
 [khan acad vid](https://www.khanacademy.org/math/linear-algebra/matrix-transformations/inverse-transformations/v/linear-algebra-introduction-to-the-inverse-of-a-function)
 
-As mentioned previously, a [function](obsidian://open?vault=MathLearning&file=Linear%20Algebra%2FMatrix%20Transformations%2FFunction) is a relation from a set of numbers to another 
+As mentioned previously, a [function](Function) is a relation from a set of numbers to another 
 
 $f(x) = y$
 $f: \; X \rightarrow Y$
@@ -10,7 +10,7 @@ Functions are invertible when there is some inverse function where it reverses t
 
 $f^{-1}: \; Y \rightarrow X$
 
-Where it's only invertible if $f$ is both [surjective and injective](obsidian://open?vault=MathLearning&file=Linear%20Algebra%2FMatrix%20Transformations%2FSurjective%20and%20Injective) and fulfills two rulesets of [composition](obsidian://open?vault=MathLearning&file=Linear%20Algebra%2FMatrix%20Transformations%2FComposition%20of%20Linear%20Transformations)
+Where it's only invertible if $f$ is both [surjective and injective](Surjective%20and%20Injective%20Functions) and fulfills two rulesets of [composition](Composition%20of%20Linear%20Transformations)
 
 | Rule                   | Meaning                                                                      |
 | ---------------------- | ---------------------------------------------------------------------------- |
@@ -23,7 +23,7 @@ Which means that the domain and co-domain must be within the same space and if e
 
 When a function is considered invertible then it implies that there is a **unique solution** within the equation $f(x) = y$ for any $y$ that's in the co-domain of the function.
 
-This means that inverse functions must be **[Injective](obsidian://open?vault=MathLearning&file=Linear%20Algebra%2FMatrix%20Transformations%2FSurjective%20and%20Injective)** or One-to-One
+This means that inverse functions must be **[Injective](Surjective%20and%20Injective%20Functions)** or One-to-One
 
 This comes down to applying the two composition rules where if we take the inverse ($f^{-1}$) of our function ($f(x)$) then we will get the identity function ($I_x$) which then just gives us the domain of the function and vice versa if we want to get the identity of the codomain ($I_y$) 
 
@@ -59,5 +59,5 @@ and if combined in a linear transformation of
 
 $(T \circ T^{-1})(\vec{x}) = A \; A^{-1}\vec{x} = I_n$
 
-Which proves that any matrix multiplied against its [inverse matrix](obsidian://open?vault=MathLearning&file=Algebra%2FMatrices%2FInverse%20Matrices) will equal the identity matrix
+Which proves that any matrix multiplied against its [inverse matrix](Inverse%20Matrices) will equal the identity matrix
 

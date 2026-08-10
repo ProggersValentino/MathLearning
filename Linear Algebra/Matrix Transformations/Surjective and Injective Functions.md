@@ -11,12 +11,12 @@ A function removes its surjective-ness when there is an element that has no mapp
 | ![[Pasted image 20260724114951.png]] | ![[Pasted image 20260724115001.png]] |
 
 
-The [image](obsidian://open?vault=MathLearning&file=Linear%20Algebra%2FMatrix%20Transformations%2FImage%20of%20a%20subset%20under%20a%**20transformation**) of a function is surjective as it takes a set and maps each element in the domain to an element in the co-domain
+The [image](Image%20of%20a%20subset%20under%20a%20transformation) of a function is surjective as it takes a set and maps each element in the domain to an element in the co-domain
 
 ### Is a transformation surjective?
 [khan acad vid](https://www.khanacademy.org/math/linear-algebra/matrix-transformations/inverse-transformations/v/determining-whether-a-transformation-is-onto)
 
-A linear transformation is surjective only if its [rank](obsidian://open?vault=MathLearning&file=Linear%20Algebra%2FVectors%20%26%20spaces%2FColumn%20Space) equals the space its co-domain is in which is otherwise known as a **full rank**.
+A linear transformation is surjective only if its [rank](Column%20Space) equals the space its co-domain is in which is otherwise known as a **full rank**.
 
 For instance, if a matrix's rank is $3$ and its co-domain is $R^3$ then the linear transformation is surjective. 
 
@@ -30,11 +30,11 @@ $A = \begin{bmatrix} 1 & 2 \\ 3 & 4 \\ 5 & 6 \end{bmatrix}$
 
 And $A$ is the linear transformation where $T : \; R^2 \rightarrow R^3$
 
-so then if we get the rank by putting A in [reduced row echelon form](obsidian://open?vault=MathLearning&file=Algebra%2FMatrices%2FReduced%20Row%20Echelon%20with%20Matrix%20Row%20Operations) ($rref(A)$) 
+so then if we get the rank by putting A in [reduced row echelon form](Reduced%20Row%20Echelon%20with%20Matrix%20Row%20Operations) ($rref(A)$) 
 ![[Pasted image 20260724140231.png]]
 Then the $Rank(A) = 2$ but because the co-domain is $R^3$ we need the rank of $A$ to equal $3$ to achieve full rank in the co-domain and thus the linear transformation of $A$ is not surjective. 
 
-So then because it's not surjective, the matrix $A$ cannot have an [inverse](obsidian://open?vault=MathLearning&file=Linear%20Algebra%2FMatrix%20Transformations%2FInverse%20of%20a%20Function) 
+So then because it's not surjective, the matrix $A$ cannot have an [inverse](Inverse%20of%20a%20Function) 
 ## Injective (One to one)
 
 Injective functions are functions where for any element in the domain ($x \; \epsilon \; X$) there is **only one element** or a **unique solution** in the co-domain it maps to
@@ -49,7 +49,7 @@ A linear transformation can only be injective if the matrix's null space is triv
 
 $N(A) = span(\vec{0})$
 
-Which if that's the case then all the column vectors within the matrix are [linearly independent](obsidian://open?vault=MathLearning&file=Linear%20Algebra%2FVectors%20%26%20spaces%2FNull%20space) thus when figuring out the [rank](obsidian://open?vault=MathLearning&file=Linear%20Algebra%2FVectors%20%26%20spaces%2FColumn%20Space) of the matrix, it must be a **full rank** where the matrix's rank must equal the space it's codomain is in
+Which if that's the case then all the column vectors within the matrix are [linearly independent](Null%20space) thus when figuring out the [rank](Column%20Space) of the matrix, it must be a **full rank** where the matrix's rank must equal the space it's codomain is in
 
 $Rank(A) = R^n$  
 

@@ -8,7 +8,7 @@ given the equation above we need to find what vector $x$ is equal to which will 
 
 $N(A) = \vec{x}\epsilon|R^4 \; | \; A\vec{x} = \vec{0}$
 
-to do this we can convert the equation into linear systems and then use [reduced row echelon](obsidian://open?vault=MathLearning&file=Algebra%2FMatrices%2FReduced%20Row%20Echelon%20with%20Matrix%20Row%20Operations) to figure out $\vec{x}$:
+to do this we can convert the equation into linear systems and then use [reduced row echelon](Reduced%20Row%20Echelon%20with%20Matrix%20Row%20Operations) to figure out $\vec{x}$:
 
 ![[Pasted image 20260701123224.png]]
 
@@ -37,7 +37,7 @@ Then $A$ would be linearly independent
 ## Dimension of null space - Nullity
 [khan acad vid](https://www.khanacademy.org/math/linear-algebra/vectors-and-spaces/null-column-space/v/dimension-of-the-null-space-or-nullity)
 
-Nullity is defined as the number of **non-pivot columns** within the [reduce row echelon form](obsidian://open?vault=MathLearning&file=Algebra%2FMatrices%2FReduced%20Row%20Echelon%20with%20Matrix%20Row%20Operations) of a matrix:
+Nullity is defined as the number of **non-pivot columns** within the [reduce row echelon form](Reduced%20Row%20Echelon%20with%20Matrix%20Row%20Operations) of a matrix:
 
 
 
@@ -46,7 +46,7 @@ Nullity is defined as the number of **non-pivot columns** within the [reduce row
 ## Left Null Space 
 [khan acad vid](https://www.khanacademy.org/math/linear-algebra/matrix-transformations/matrix-transpose/v/linear-algebra-rowspace-and-left-nullspace)
 
-The left null space of a matrix is the null space of a [transposed matrix](obsidian://open?vault=MathLearning&file=Linear%20Algebra%2FMatrix%20Transformations%2FTransposing) 
+The left null space of a matrix is the null space of a [transposed matrix](Transposing) 
 
 $N(A^T) = Left \; Null \; Space \; of \; A$
 
@@ -56,7 +56,7 @@ $\vec{x}^T \; A = \vec{0}^T$
 
 $N(A^T) = (\vec{x} | A^T \vec{x} = \vec{0}) = (\vec{x} \; | \; \vec{x}^T A = \vec{0}^T)$
 
-For instance if we have matrix $A$ and its null space from applying the [reduced row echelon](obsidian://open?vault=MathLearning&file=Algebra%2FMatrices%2FReduced%20Row%20Echelon%20with%20Matrix%20Row%20Operations)  
+For instance if we have matrix $A$ and its null space from applying the [reduced row echelon](Reduced%20Row%20Echelon%20with%20Matrix%20Row%20Operations)  
 
 $A = \begin{bmatrix} 2 & -1 & -3 \\ -4 & 2 & 6 \end{bmatrix}$
 
@@ -67,7 +67,7 @@ Which then if we transpose $A$ and find its null space we'll see that its a diff
 
 $N(A^T) = Span(\begin{bmatrix} 2 \\ 1 \end{bmatrix})$
 
-Another property with the left null space is that it will be orthogonal with the [column space](obsidian://open?vault=MathLearning&file=Linear%20Algebra%2FVectors%20%26%20spaces%2FColumn%20Space) which is clear if we visualize it with a graph 
+Another property with the left null space is that it will be orthogonal with the [column space](Column%20Space) which is clear if we visualize it with a graph 
 ![[Pasted image 20260806133509.png]]
 
 and if we find the dot product between the column space and left null space, the result ends up to be $0$

@@ -11,7 +11,7 @@ Furthermore, identity matrices must be $n \times n$  and cannot be $n \times m$ 
 
 ## Multiplication with Identity Matrix 
 
-When multiplying with identity matrices it should follow the [necessary rules](obsidian://open?vault=MathLearning&file=Algebra%2FMatrices%2FMatrix%20Multiplication) to determine a defined equation
+When multiplying with identity matrices it should follow the [necessary rules](Matrix%20Multiplication) to determine a defined equation
 
 ![[Pasted image 20260529104515.png]]![[Pasted image 20260529104522.png]]
 

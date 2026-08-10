@@ -17,7 +17,7 @@ So then if take the transpose of $C$ ($C^T$) then it will become a $3 \times 4$ 
 ### Determinant of transpose
 [khan acad vid](https://www.khanacademy.org/math/linear-algebra/matrix-transformations/matrix-transpose/v/linear-algebra-determinant-of-transpose)
 
-When a matrix undergoes a transpose and then solve for its [determinant](obsidian://open?vault=MathLearning&file=Algebra%2FMatrices%2FDeterminant%20Matrices), the determinant of $A^T$ is equivalent to the determinant of $A$
+When a matrix undergoes a transpose and then solve for its [determinant](Determinant%20Matrices), the determinant of $A^T$ is equivalent to the determinant of $A$
 
 This is because, despite transposing, the transpose does not change the matrix enough to impact the result of the determinant, like for instance if we have matrix $A$ and its determinant
 
@@ -72,7 +72,7 @@ $C = A + B$
 $C^T = (A+B)^T = A^T + B^T$
 
 
-And the transpose of an [inverse matrix](obsidian://open?vault=MathLearning&file=Algebra%2FMatrices%2FInverse%20Matrices) is the inverse of transpose
+And the transpose of an [inverse matrix](Inverse%20Matrices) is the inverse of transpose
 
 $(A^T)^{-1} = (A^{-1})^T$
 
@@ -84,11 +84,11 @@ Because vectors can be represented in matrix form, they can also be transposed
 
 $\vec{v} = \begin{bmatrix} v_1 \\ v_2 \\ . \\ . \\ . \\ v_n \end{bmatrix} \;\;\; \vec{v}^T = \begin{bmatrix} v_1 & v_2 & . & . & . & v_n \end{bmatrix}$
 
-This has a few interesting properties in that if we do the [dot product](obsidian://open?vault=MathLearning&file=Linear%20Algebra%2FVectors%20%26%20spaces%2FVector%20Dot%20Product%20%26%20Length) of $v$ and $w$ we know that it expands to
+This has a few interesting properties in that if we do the [dot product](Vector%20Dot%20Product%20and%20Length) of $v$ and $w$ we know that it expands to
 
 $\vec{v} \cdot \vec{w} = v_1w_1 + v_2w_2 + ... + v_nw_n$
 
-But if we were to transpose $\vec{v}$ [multiply](obsidian://open?vault=MathLearning&file=Algebra%2FMatrices%2FMatrix%20Multiplication) it by $\vec{w}$ to get a matrix product, you can see that its exactly the same process as the dot product
+But if we were to transpose $\vec{v}$ [multiply](Matrix%20Multiplication) it by $\vec{w}$ to get a matrix product, you can see that its exactly the same process as the dot product
 
 $\vec{v}^T \; \vec{w} = v_1w_1 + v_2w_2 + ... + v_nw_n$
 
@@ -96,7 +96,7 @@ So therefore, we can say that the dot product is **equivalent** to getting a the
 
 $\vec{v} \cdot \vec{w} = \vec{v}^T \; \vec{w}$
 
-this is because, when the vectors undergo the dot product, they are both $n \times 1$ matrix which does not fulfill the [closure of multiplication property](obsidian://open?vault=MathLearning&file=Algebra%2FMatrices%2FProperties%20of%20Matrices) 
+this is because, when the vectors undergo the dot product, they are both $n \times 1$ matrix which does not fulfill the [closure of multiplication property](Properties%20of%20Matrices) 
 
 However, when we transpose $\vec{v}$ all of the sudden $\vec{v}^T$ becomes an $1 \times n$ and $\vec{w}$ still $n \times 1$ which then it becomes a valid matrix multiplication 
 
@@ -113,7 +113,7 @@ Then if we take the dot product of the $A\vec{x}$ against $\vec{y}$ that is equi
 
 $= \vec{x}^T A^T \; \vec{y}$
 
- We know that matrices are [associative](obsidian://open?vault=MathLearning&file=Algebra%2FMatrices%2FProperties%20of%20Matrices) so then the equation becomes
+ We know that matrices are [associative](Properties%20of%20Matrices) so then the equation becomes
 
 $= \vec{x}^T \; (A^T \; \vec{y})$
 
@@ -127,7 +127,7 @@ $\therefore \vec{x}^T \; (A^T \; \vec{y}) = \vec{v} \cdot (A^T \; \vec{y})$
 ## Can the transpose be invertible?
 [khan acad vid](https://www.khanacademy.org/math/linear-algebra/matrix-transformations/matrix-transpose/v/lin-alg-showing-that-a-transpose-x-a-is-invertible)
 
-A matrix is considered invertible if its [a square matrix and its column vectors are linearly independent](obsidian://open?vault=MathLearning&file=Linear%20Algebra%2FMatrix%20Transformations%2FSurjective%20and%20Injective%20Functions).
+A matrix is considered invertible if its [a square matrix and its column vectors are linearly independent](Surjective%20and%20Injective%20Functions).
 
 if matrix $A$ and $A^T$ are not a square matrix 
 
@@ -135,9 +135,9 @@ $A = \begin{bmatrix} | & | &  &  &  & | \\ \vec{a_1} & \vec{a_2} & . & . & . & \
 
 $A = n \times k \;\;\; A^T = k \times n$
 
-then we can make a square matrix from [multiplying](obsidian://open?vault=MathLearning&file=Algebra%2FMatrices%2FMatrix%20Multiplication) $A^TA$ which then assuming all column vectors from the matrix $A^TA$ are [linear independent](obsidian://open?vault=MathLearning&file=Linear%20Algebra%2FVectors%20%26%20spaces%2FLinear%20Independence) then the product matrix will be **invertible**
+then we can make a square matrix from [multiplying](Matrix%20Multiplication) $A^TA$ which then assuming all column vectors from the matrix $A^TA$ are [linear independent](Linear%20Independence) then the product matrix will be **invertible**
 
-The reason why its invertible, is because, if matrix $A$ is already linearly independent then its [null space](obsidian://open?vault=MathLearning&file=Linear%20Algebra%2FVectors%20%26%20spaces%2FNull%20space) will only have the $\vec{0}$
+The reason why its invertible, is because, if matrix $A$ is already linearly independent then its [null space](Null%20space) will only have the $\vec{0}$
 
 $A\vec{v} = \vec{0}$
 

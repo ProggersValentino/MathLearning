@@ -1,6 +1,6 @@
 [khan acad vid](https://www.khanacademy.org/math/linear-algebra/matrix-transformations/lin-trans-examples/v/linear-transformation-examples-scaling-and-reflections)
 
-Previously, it was seen that [identity matrices](obsidian://open?vault=MathLearning&file=Algebra%2FMatrices%2FIdentity%20Matrix), when a linear transformation is applied to it, create an [image](obsidian://open?vault=MathLearning&file=Linear%20Algebra%2FMatrix%20Transformations%2FImage%20of%20a%20subset%20under%20a%20transformation) under that transformation consisting the new basis vectors which when [linearly combined](obsidian://open?vault=MathLearning&file=Linear%20Algebra%2FVectors%20%26%20spaces%2FDrawings%2Flinear%20combinations%20%26%20spans) with any subset of vectors transforms the image based of the subset.
+Previously, it was seen that [identity matrices](Identity%20Matrix), when a linear transformation is applied to it, create an [image](Image%20of%20a%20subset%20under%20a%20transformation) under that transformation consisting the new basis vectors which when [linearly combined](Linear%20Combination%20and%20span) with any subset of vectors transforms the image based of the subset.
 ## Diagonal Matrices
 Diagonal matrices are matrices where only the positions from the top left to diagonally bottom right are filled with numbers and the rest are $0$s:
 

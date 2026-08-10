@@ -1,4 +1,4 @@
-h[khan acad vid](https://www.khanacademy.org/math/algebra-home/alg-vectors/alg-magnitude-direction/v/angles-of-vectors-from-components)
+[khan acad vid](https://www.khanacademy.org/math/algebra-home/alg-vectors/alg-magnitude-direction/v/angles-of-vectors-from-components)
 
 While we have used visual graphing to discover the direction of a vector, we can calculate and find the direction of a vector through inverse tangent calculations. Depending on the quadrant determines what additional step needs to be done to find the true $\theta$
 

@@ -17,7 +17,7 @@ $\hat{z} = \hat{k} = \begin{bmatrix} 0 \\ 0 \\ 1 \end{bmatrix}$
 
 which its magnitude will also be $1$
 
-Notice that if we put $\hat{i}, \hat{j}, \hat{k}$ into one matrix it forms the [identity matrix of R3](obsidian://open?vault=MathLearning&file=Algebra%2FMatrices%2FIdentity%20Matrix) which are the [standard basis vectors](obsidian://open?vault=MathLearning&file=Linear%20Algebra%2FVectors%20%26%20spaces%2FLinear%20Subspaces)
+Notice that if we put $\hat{i}, \hat{j}, \hat{k}$ into one matrix it forms the [identity matrix of R3](Identity%20Matrix) which are the [standard basis vectors](Linear%20Subspaces)
 
 These vectors are essential for normalization calculations.
 

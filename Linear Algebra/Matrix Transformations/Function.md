@@ -73,5 +73,5 @@ $I_x(a) = a$
 
 In some sense this acts as like a loop where it will just loop back and equal the same value as it's input. 
 
-If we put this in matrix form, this behaviour is the equivalent to multiplying a matrix by a [Identity matrix](obsidian://open?vault=MathLearning&file=Algebra%2FMatrices%2FIdentity%20Matrix) within the same $R^n$ space
+If we put this in matrix form, this behaviour is the equivalent to multiplying a matrix by a [Identity matrix](Identity%20Matrix) within the same $R^n$ space
 

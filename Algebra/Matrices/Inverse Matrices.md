@@ -4,12 +4,12 @@ A **matrix inverse** is a calculation where it gets the direct opposite of any m
 $A^{-1} \cdot A = I_n$
 ^inverseToIdentity
 
-For a matrix to be invertible, it must follow the same rules for an [inverse function](obsidian://open?vault=MathLearning&file=Linear%20Algebra%2FMatrix%20Transformations%2FInverse%20of%20a%20Function) which in translation for matrices the matrix **must** 
+For a matrix to be invertible, it must follow the same rules for an [inverse function](Inverse%20of%20a%20Function) which in translation for matrices the matrix **must** 
 
 - be a square matrix ($n \times n$) 
-- have its [determinant](obsidian://open?vault=MathLearning&file=Algebra%2FMatrices%2FDeterminant%20Matrices) $\ne 0$ 
+- have its [determinant](Determinant%20Matrices) $\ne 0$ 
 
-The reason is if the equation $A^{-1} \; A = I_n$ were true then it must be [surjective and injective](obsidian://open?vault=MathLearning&file=Linear%20Algebra%2FMatrix%20Transformations%2FSurjective%20and%20Injective%20Functions) meaning that the matrix's column vectors must be [linearly independent](obsidian://open?vault=MathLearning&file=Linear%20Algebra%2FVectors%20%26%20spaces%2FLinear%20Independence) and must achieve [full rank](obsidian://open?vault=MathLearning&file=Linear%20Algebra%2FVectors%20%26%20spaces%2FColumn%20Space) in both domain and co-domain of the transformation
+The reason is if the equation $A^{-1} \; A = I_n$ were true then it must be [surjective and injective](Surjective%20and%20Injective%20Functions) meaning that the matrix's column vectors must be [linearly independent](Linear%20Independence) and must achieve [full rank](Column%20Space) in both domain and co-domain of the transformation
 
 So therefore, if the matrix is not a square matrix, then it cannot achieve full rank and if the determinant $= 0$ then the matrix is not linearly independent and therefore cannot span across its $R^n$ space.
 
@@ -26,7 +26,7 @@ $\begin{aligned} A = \begin{bmatrix} a & b \\ c & d \end{bmatrix} \\[1em] A^{-1}
 ![[Pasted image 20260728165702.png]]
 
 
-which $ad - bc$ is just the [determinant](obsidian://open?vault=MathLearning&file=Algebra%2FMatrices%2FDeterminant%20Matrices) of $A$ so it be simplified to:
+which $ad - bc$ is just the [determinant](Determinant%20Matrices) of $A$ so it be simplified to:
 
 $A^{-1} = {1 \over {|A|}} \cdot \begin{bmatrix} d & -b \\ -c & a \end{bmatrix}$
 
@@ -42,7 +42,7 @@ now that we have our inverse matrix, when we multiply it to the original matrix:
 
 A square matrix with no inverse is called a **Singular Matrix**
 
-What makes a singular matrix is if the [determinant](obsidian://open?vault=MathLearning&file=Algebra%2FMatrices%2FDeterminant%20Matrices) of the matrix is equal to $0$ which explained from a linear algebra stand point, either the slopes of each line **are parallel from each other** OR the **lines intersect infinitely giving no true definitative value**  
+What makes a singular matrix is if the [determinant](Determinant%20Matrices) of the matrix is equal to $0$ which explained from a linear algebra stand point, either the slopes of each line **are parallel from each other** OR the **lines intersect infinitely giving no true definitative value**  
 
 This is determined if the matrix has equal ratios for either side which can be describe as below:
 
@@ -79,7 +79,7 @@ The method involves taking a matrix and putting it against an identity matrix
 
 $\begin{bmatrix} 1 & -1 & -1 & | & 1 & 0 & 0 \\ -1 & 2 & 3 & | & 0 & 1 & 0 \\ 1 & 1 & 4 & | & 0 & 0 & 1\end{bmatrix}$
 
-and apply [reduced row echelon](obsidian://open?vault=MathLearning&file=Algebra%2FMatrices%2FReduced%20Row%20Echelon%20with%20Matrix%20Row%20Operations) to the augmented matrix until left side is the identity matrix which is just a [composition](obsidian://open?vault=MathLearning&file=Linear%20Algebra%2FMatrix%20Transformations%2FComposition%20of%20Linear%20Transformations) of transformations which when applied, grant the inverse matrix result ($A^{-1}$)
+and apply [reduced row echelon](Reduced%20Row%20Echelon%20with%20Matrix%20Row%20Operations) to the augmented matrix until left side is the identity matrix which is just a [composition](Composition%20of%20Linear%20Transformations) of transformations which when applied, grant the inverse matrix result ($A^{-1}$)
 
 $\begin{bmatrix} 1 & 0 & 0 & | & 5 & 3 & -1 &  \\ 0 & 1 & 0 & | & 7 & 5 & -2 \\ 0 & 0 & 1 & | & -3 & -2 & 1 \end{bmatrix}$
 ![[Pasted image 20260728152410.png]]

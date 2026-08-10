@@ -46,7 +46,7 @@ Each location in 3-dimensional space is represented with with 3 numbers:
 
 $R^3 = \begin{bmatrix} x \\ y \\ z \end{bmatrix}$
 
-Earlier in 2D spaces, it doesnt matter what orientation we set it too as we can always rotate it back to the normal orientation. 
+Earlier in 2D spaces, it doesn't matter what orientation we set it too as we can always rotate it back to the normal orientation. 
 
 However, this can't be achieved with 3D spaces, as if we flip the z-axis and try to line it up to its normal orientation, all 3 axis' will never be aligned to its normal orientation. which brings us to the sub-types of 3D space which is **left-handed coordinate** and **right-hand coordinate**
 

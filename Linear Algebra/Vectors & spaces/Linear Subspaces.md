@@ -39,7 +39,7 @@ These are considered **basis vectors** because they are linearly independent of 
 ![[Pasted image 20260706172353.png]]
 
 When the basis vectors are mutually perpendicular, they are defined as an **orthogonal basis** where the coordinates are uncoupled meaning any given component from a vector $\vec{v}$ can be determined solely from $\vec{v}$. 
-These can be tested using the [dot product](obsidian://open?vault=MathLearning&file=Linear%20Algebra%2FVectors%20%26%20spaces%2FVector%20Dot%20Product%20%26%20Length) to determine if the vectors are mutually perpendicular as well as the [cross product](obsidian://open?vault=MathLearning&file=Linear%20Algebra%2FVectors%20%26%20spaces%2FCross%20Product) to generate the supposed vector that is perpendicular to the other two.
+These can be tested using the [dot product](Vector%20Dot%20Product%20and%20Length) to determine if the vectors are mutually perpendicular as well as the [cross product](Cross%20Product) to generate the supposed vector that is perpendicular to the other two.
 
 Additionally when orthogonal basis vectors have a unit vector value of $1$ then its redefined as a **orthonormal basis**  
 ## Proof of subspace basis
@@ -48,4 +48,3 @@ Additionally when orthogonal basis vectors have a unit vector value of $1$ then 
 this invokes the idea that all subspace basis have the **same number of elements** which creates the **dimension**:
 
 $Dim(V) = NO.\; of\; elements \; of \; any\; basis\; of\; V$
-h

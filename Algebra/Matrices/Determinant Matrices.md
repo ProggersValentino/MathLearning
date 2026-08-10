@@ -2,7 +2,7 @@
 
 The **determinant** of a matrix is a special scalar number that can only be calculated through square matrices ($2 \times 2$, $3 \times 3$, $4 \times 4$, etc) 
 
-The determinant value represents if a matrix can be [invertible](obsidian://open?vault=MathLearning&file=Linear%20Algebra%2FMatrix%20Transformations%2FInverse%20of%20a%20Function) by determining if its [linearly independent](obsidian://open?vault=MathLearning&file=Linear%20Algebra%2FVectors%20%26%20spaces%2FLinear%20Independence) 
+The determinant value represents if a matrix can be [invertible](Inverse%20Of%20a%20Function) by determining if its [linearly independent](Linear%20Independence) 
 ## $2 \times 2$ Matrix Determinant
 
 For the average $2 \times 2$ matrix you multiply each opposites and minus them
@@ -189,7 +189,7 @@ $row \; swap = det(A) = -det(A)$
 
 However, if the row that is swapped is a duplicate then nothing happens and the result of the determinant will be the same. 
 
-With this, it does mean that the two identical rows make the matrix [linear dependent](obsidian://open?vault=MathLearning&file=Linear%20Algebra%2FVectors%20%26%20spaces%2FLinear%20Independence) because there is another matrix within the subset of vectors that can be made from other linear combinations of the rest of the subset. 
+With this, it does mean that the two identical rows make the matrix [linear dependent](Linear%20Independence) because there is another matrix within the subset of vectors that can be made from other linear combinations of the rest of the subset. 
 
 So therefore, we can determine that if there is a duplicate row within the matrix then the determinant result will always be equal to $0$
 
@@ -228,7 +228,7 @@ So this can be used to solve the determinant of matrices especially if we have a
 
 $A = \begin{bmatrix} 1 & 2 & 2 & 1 \\ 1 & 2 & 4 & 2 \\ 2 & 7 & 5 & 2 \\ -1 & 4 & -6 & 3 \end{bmatrix}$
 
-We can use [matrix row operations](obsidian://open?vault=MathLearning&file=Algebra%2FMatrices%2FReduced%20Row%20Echelon%20with%20Matrix%20Row%20Operations) to turn it into an upper triangular matrix
+We can use [matrix row operations](Reduced%20Row%20Echelon%20with%20Matrix%20Row%20Operations) to turn it into an upper triangular matrix
 ![[Pasted image 20260803122009.png]]
 
 so then after its put into upper triangular form the determinant can be solved:
@@ -241,7 +241,7 @@ $\therefore det(A) = -42$
 ## Determinant as Scaling factor
 [khan acad vid](https://www.khanacademy.org/math/linear-algebra/matrix-transformations/determinant-depth/v/linear-algebra-determinant-as-scaling-factor)
 
-The determinant can also be used as a scaling factor for when we apply [linear transformations to a subset of vectors](obsidian://open?vault=MathLearning&file=Linear%20Algebra%2FMatrix%20Transformations%2FImage%20of%20a%20subset%20under%20a%20transformation)
+The determinant can also be used as a scaling factor for when we apply [linear transformations to a subset of vectors](Image%20of%20a%20subset%20under%20a%20transformation)
 
 For instance, given the vectors:
 $\vec{a} = \begin{bmatrix} 0 \\ 0 \end{bmatrix} \;\;\; \vec{b} = \begin{bmatrix} k_1 \\ 0 \end{bmatrix} \;\;\; \vec{c} = \begin{bmatrix} k_1 \\ k_2 \end{bmatrix} \;\;\; \vec{d} = \begin{bmatrix} 0 \\ k_2 \end{bmatrix}$
@@ -269,7 +269,7 @@ The transformation matrix would be represented as
 
 $Im(Rec) = \begin{bmatrix} k_1a & k_2b \\ k_1c & k_2d \end{bmatrix}$
 
-And if we want to find the [area of this parallelogram](obsidian://open?vault=MathLearning&file=Linear%20Algebra%2FMatrix%20Transformations%2FArea%20of%20Parallelogram%20using%20Determinant), we would need to find the absolute of the determinant of matrix $A$ which looks like
+And if we want to find the [area of this parallelogram](Area%20of%20Parallelogram%20using%20Determinant), we would need to find the absolute of the determinant of matrix $A$ which looks like
 
 $|det(Im(Rec))| = |k_1k_2ad - k_1k_2bc|$
 
@@ -279,4 +279,4 @@ $|k_1k_2 \; (ad-bc)| = |k_1k_2 \;\; det(Im(Rec))|$
 
 $\therefore area \; of \; Im(Rec) = |k_1k_2 \; det(Im(Rec))|$
 
-Which if we were to pull apart the formula, it is just the area of a rectangle **scaled** by the determinant of the transformation matrix which is the [area of this parallelogram](obsidian://open?vault=MathLearning&file=Linear%20Algebra%2FMatrix%20Transformations%2FArea%20of%20Parallelogram%20using%20Determinant) on its own
+Which if we were to pull apart the formula, it is just the area of a rectangle **scaled** by the determinant of the transformation matrix which is the [area of this parallelogram](Area%20of%20Parallelogram%20using%20Determinant) on its own

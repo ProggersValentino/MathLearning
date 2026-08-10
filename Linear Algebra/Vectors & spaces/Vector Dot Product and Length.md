@@ -7,7 +7,7 @@ $\begin{aligned} \vec{a} \cdot \vec{b} = scalar \\[1em] \begin{bmatrix} a_1 \\ a
 for instance:
 ![[Pasted image 20260615135843.png]]
 #### What is a Vector Length
-Vector Length in vector math is the definition of [vector magnitude](obsidian://open?vault=MathLearning&file=Algebra%2FVectors%2FMagnitude)
+Vector Length in vector math is the definition of [vector magnitude](Magnitude)
 
 $||\vec{a}|| = \sqrt{a_1^2 + a_2^2 + a_3^2 ... + a_n^2}$
 

@@ -10,7 +10,7 @@ tags: [excalidraw]
 # Excalidraw Data
 
 ## Text Elements
-[[Matrices Basic Math Operations (Addition, Subtraction, Scalar multiplication)]] ^0zwPDFGF
+[[Matrices Basic Math Operations]] ^0zwPDFGF
 
 8  5  2 ^7oISJ6Xb
 

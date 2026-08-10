@@ -10,7 +10,7 @@ A **positive angle** will rotate in a **counter-clockwise fashion** whereas a **
 
 
 Using **SOCAHTOA** we can determine, if we have a vector, the specific intersection point.
-So because we know that to get vector direction we need our [vector components](obsidian://open?vault=MathLearning&file=Algebra%2FVectors%2FIntro%20To%20Vectors%20%26%20Scalars) $x$ and $y$ and we know the hypotenuse of the vector will be 1 because a unit circle only has a **maximum radius of 1**
+So because we know that to get vector direction we need our [vector components](Intro%20To%20Vectors%20and%20Scalars) $x$ and $y$ and we know the hypotenuse of the vector will be 1 because a unit circle only has a **maximum radius of 1**
 
 So then we can denote to get our $y$ you need to use $sin\theta$ as 
 

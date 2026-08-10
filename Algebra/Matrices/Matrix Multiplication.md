@@ -1,6 +1,6 @@
 [khan acad video](https://www.khanacademy.org/math/algebra-home/alg-matrices/alg-multiplying-matrices-by-matrices/v/matrix-multiplication-intro), [khan acad lesson](https://www.khanacademy.org/math/algebra-home/alg-matrices/alg-multiplying-matrices-by-matrices/a/multiplying-matrices)
 
-multiplication in matricies is very different to [scalar multiplication](obsidian://open?vault=MathLearning&file=Algebra%2FMatrices%2FMatrices%20Basic%20Math%20Operations%20(Addition%2C%20Subtraction%2C%20Scalar%20multiplication)) as to get the product, we must multiply and add a **row x column**. 
+multiplication in matricies is very different to [scalar multiplication](Matrices%20Basic%20Math%20Operations%20(Addition%20Subtraction%20Scalar%20multiplication)) as to get the product, we must multiply and add a **row x column**. 
 
 ## dot product
 to better understand matrix multiplication we need to understand **dot product** and n tuples (which is an ordered pair of numbers like (3, 4, 8)).
@@ -48,7 +48,7 @@ Now that there's an understand of how to multiply, we need to understand when to
 for instance take:
 ![[Pasted image 20260528115159.png]]
 
-looking at it first it logically makes sense that these two matrices fulfil the [closure property of multiplication](obsidian://open?vault=MathLearning&file=Algebra%2FMatrices%2FProperties%20of%20Matrices) meaning they can be multiplied together
+looking at it first it logically makes sense that these two matrices fulfil the [closure property of multiplication](Properties%20of%20Matrices) meaning they can be multiplied together
 
 However, this equation results in **UNDEFINED** for the overall result because the second matrix doesn't match how we multiply as if we try to multiply these two, when we do **row x column** notice how we'll end up with a n-tuple sizes when trying to find the dot product. 
 

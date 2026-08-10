@@ -24,7 +24,7 @@ If the product of $\vec{a} \times \vec{b}$ is **equal to $0$** then vectors $\ve
 
 While we know the result of a **cross product** is **perpendicular** to the inputted vectors, there's still a need to determine which direction that product will go. 
 
-This is dependent on the [coordinate system](obsidian://open?vault=MathLearning&file=Linear%20Algebra%2FVectors%20%26%20spaces%2FCoordinate%20Spaces) that is being used as if it determines if we should do a **clockwise** or **counter-clockwise** turn from the vectors:
+This is dependent on the [coordinate system](Coordinate%20Spaces) that is being used as if it determines if we should do a **clockwise** or **counter-clockwise** turn from the vectors:
 
 
 |                              | Clockwise Turn<br>![[Pasted image 20260623105300.png]] | Counter-clockwise turn<br>![[Pasted image 20260623105317.png]] |

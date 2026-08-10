@@ -17,7 +17,7 @@ $T \circ S: \; X \rightarrow Z$
 And because this is a linear transformation where it fulfills the two necessary rules:
 ![[Function#^LinearTransformationRules]]
 
-Compositions can be represented in [matrix vector product]((obsidian://open?vault=MathLearning&file=Linear%20Algebra%2FMatrix%20Transformations%2FMatrix%20vector%20products) form:
+Compositions can be represented in [matrix vector product](Matrix%20vector%20products) form:
 
 $T \circ S = B(A\vec{x}) = C\vec{x}$
 
@@ -25,6 +25,6 @@ With this we are able to create an image of $I_n$ from the composition of $T$ wi
 
 ![[Pasted image 20260722112531.png]]
 
-Fortunately, this process can be completed faster by just applying [matrix multiplication](obsidian://open?vault=MathLearning&file=Algebra%2FMatrices%2FMatrix%20Multiplication) of each transformation matrix to find the linear transformation between vector space $X$ and $Z$ when applying any vector in the space of $X$:
+Fortunately, this process can be completed faster by just applying [matrix multiplication](Matrix%20Multiplication) of each transformation matrix to find the linear transformation between vector space $X$ and $Z$ when applying any vector in the space of $X$:
 
 $BA$

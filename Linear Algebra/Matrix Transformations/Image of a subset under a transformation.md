@@ -9,7 +9,7 @@ And we want to apply the linear transformation of:
 
 $T(\vec{x}) = \begin{bmatrix} 1 & -1 \\ 2 & 0 \end{bmatrix} \cdot \begin{bmatrix} x_1 \\ x_2 \end{bmatrix}$
 
-So then taking in one of our line definitions, we adjust the definition to match the [rules of a linear transformation](Function#Linear Transformation) which will make it easier to discern what needs to be done, taking a line definition from:
+So then taking in one of our line definitions, we adjust the definition to match the [rules of a linear transformation](Function#Linear%20Transformation) which will make it easier to discern what needs to be done, taking a line definition from:
 $L_0 = {\vec{x_0} + t(\vec{x_1} - \vec{x_0} | 0 \le t \le 1)}$
 
 to: 
@@ -40,5 +40,5 @@ $im(T)$
 
 The subset of a codomain when mapping all of the elements of a domain into its codomain is the **image of a transformation**
 
-The Image of a transformation is the equivalent of the [column space](obsidian://open?vault=MathLearning&file=Linear%20Algebra%2FVectors%20%26%20spaces%2FDrawings%2Fcolumn%20sapce) of the matrix that getting represented 
+The Image of a transformation is the equivalent of the [column space](Column%20Space) of the matrix that getting represented 
 ![[Pasted image 20260727092916.png]]
