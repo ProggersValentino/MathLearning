@@ -1,7 +1,7 @@
 [khan acad vid](https://www.khanacademy.org/math/linear-algebra/vectors-and-spaces/linear-independence/v/more-on-linear-independence)
 
 #### What is Linear dependence
-Linear dependence is where a linear combination **can represent** one of the vectors within the set. Therefore, the representation isn't adding anything new to be represented in a different direction but rather is only a scaled representation of another vector
+Linear dependence is where a [linear combination](Linear%20Combination%20and%20span) **can represent** one of the vectors within the set. Therefore, the representation isn't adding anything new to be represented in a different direction but rather is only a scaled representation of another vector
 
 To mathematically solve whether a set of vectors are linearly dependent or not we can apply this rule:
 

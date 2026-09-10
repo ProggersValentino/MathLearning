@@ -1,4 +1,4 @@
-[khan acad vid](https://www.khanacademy.org/math/algebra-home/alg-matrices/alg-intro-to-matrix-inverses/v/inverse-matrix-part-1)
+[khan acad vid](https://www.khanacademy.org/math/algebra-home/alg-matrices/alg-intro-to-matrix-inverses/v/inverse-matrix-part-1), [game math chapt 6.2](https://gamemath.com/book/matrixmore.html#inverse)
 A **matrix inverse** is a calculation where it gets the direct opposite of any matrix $A$ which is known as $A^{-1}$. And when the equation $A \cdot A^{-1}$ is applied the result will be the identity matrix ($I_n$)
 
 $A^{-1} \cdot A = I_n$
@@ -13,6 +13,12 @@ The reason is if the equation $A^{-1} \; A = I_n$ were true then it must be [sur
 
 So therefore, if the matrix is not a square matrix, then it cannot achieve full rank and if the determinant $= 0$ then the matrix is not linearly independent and therefore cannot span across its $R^n$ space.
 
+## Geometric Interpretation
+[game math chap 6.2.3](https://gamemath.com/book/matrixmore.html#inverse)
+
+In a geometric context, inverse matrices allow the ability to reverse or "undo" a transformation applied back to the original matrix before it was transformed. So therefore, if we apply a transformation to a vector, we can undo it by applying the inverse matrix:
+
+$(A\vec{x})A^{-1} = (AA^{-1})\vec{x} = I\vec{x} = \vec{x}$
 
 ## 2 x 2 Inverse Matrices
 [khan acad vid](https://www.khanacademy.org/math/linear-algebra/matrix-transformations/inverse-of-matrices/v/linear-algebra-formula-for-2x2-inverse)
@@ -42,7 +48,7 @@ now that we have our inverse matrix, when we multiply it to the original matrix:
 
 A square matrix with no inverse is called a **Singular Matrix**
 
-What makes a singular matrix is if the [determinant](Determinant%20Matrices) of the matrix is equal to $0$ which explained from a linear algebra stand point, either the slopes of each line **are parallel from each other** OR the **lines intersect infinitely giving no true definitative value**  
+What makes a singular matrix is if the [determinant](Determinant%20Matrices) of the matrix is equal to $0$ which explained from a linear algebra stand point, either the slopes of each line **are parallel from each other** OR the **lines intersect infinitely giving no true definitive value**  
 
 This is determined if the matrix has equal ratios for either side which can be describe as below:
 

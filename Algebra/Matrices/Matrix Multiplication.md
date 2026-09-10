@@ -1,6 +1,6 @@
 [khan acad video](https://www.khanacademy.org/math/algebra-home/alg-matrices/alg-multiplying-matrices-by-matrices/v/matrix-multiplication-intro), [khan acad lesson](https://www.khanacademy.org/math/algebra-home/alg-matrices/alg-multiplying-matrices-by-matrices/a/multiplying-matrices)
 
-multiplication in matricies is very different to [scalar multiplication](Matrices%20Basic%20Math%20Operations%20(Addition%20Subtraction%20Scalar%20multiplication)) as to get the product, we must multiply and add a **row x column**. 
+multiplication in matricies is very different to [scalar multiplication](Matrices%20Basic%20Math%20Operations) as to get the product, we must multiply and add a **row x column**. 
 
 ## dot product
 to better understand matrix multiplication we need to understand **dot product** and n tuples (which is an ordered pair of numbers like (3, 4, 8)).
@@ -30,13 +30,16 @@ $\overrightarrow{c2} = (7, 4)$
 
 ## Matrix Multiplication
 
-So now lets do some multiplication.
-
 Given $A = \begin{bmatrix} 11 & 7 \\ 10 & 4 \end{bmatrix}$ and $B = \begin{bmatrix} -3 & 8 \\ 15 & 7 \end{bmatrix}$ find the new multiplied matrix $C$
 
 ![[Pasted image 20260528111911.png]]
 
-As you can see each entry, like for instance $C_{1,2} = (11, 7) \cdot (-3, 15)$, is just an n-tuple which then we just need to find the dot product of them which:
+As you can see each entry follows applying the [dot product](Vector%20Dot%20Product%20and%20Length) to an n-tuple from each matrix to get a specific element for the new matrix. 
+
+For instance to find the element $c_{11}$ we get the first row vector ($\vec{a}_1$) from $A$ and the first column vector ($\vec{b}_{1}$) from $B$:
+
+$c_{11} = (11, 7) \cdot (-3, 15)$
+
 ![[Pasted image 20260528112910.png]]
 
 so now when we apply that to the rest of the matrix we get a final matrix of:

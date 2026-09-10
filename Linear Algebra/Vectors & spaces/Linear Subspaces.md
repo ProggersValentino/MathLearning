@@ -8,7 +8,7 @@ $subset = Span(\vec{x}) \; \epsilon \; R^2 \;|\; x_1 \ge 10$
 $subset = Span(\begin{bmatrix} 12 \\ 0 \end{bmatrix} \; \begin{bmatrix} 21 \\ 7 \end{bmatrix}\; \begin{bmatrix} 13 \\ 2 \end{bmatrix})$
 
 #### What is a linear subspace
-A subset of vectors within $R^n$ which must fulfill three condition properties to be considered a **linear subspace**. This can also be portrayed as it is a subset of vectors that fulfill the rules and can still follow any restrictive rule its been set
+A subset of vectors within $R^n$ which must fulfill three condition properties to be considered a **linear subspace**. This can also be portrayed as it is a subset of vectors that fulfill the rules of a subspace definition and can still follow any additional restrictive rule its been set
 
 $Subspace = Span(\vec{x_1}, \vec{x_2}, ... \vec{x_n}) \; \epsilon \; R^2$
 

@@ -3,6 +3,7 @@
 The **determinant** of a matrix is a special scalar number that can only be calculated through square matrices ($2 \times 2$, $3 \times 3$, $4 \times 4$, etc) 
 
 The determinant value represents if a matrix can be [invertible](Inverse%20Of%20a%20Function) by determining if its [linearly independent](Linear%20Independence) 
+
 ## $2 \times 2$ Matrix Determinant
 
 For the average $2 \times 2$ matrix you multiply each opposites and minus them
@@ -82,6 +83,21 @@ now lets apply to a real example:
 
 which gives us:
 ![[Pasted image 20260603151409.png]]
+
+## Cofactors 
+[game math chpt 6.1.2](https://gamemath.com/book/matrixmore.html#minors_cofactors)
+
+We know that a matrix has rows $r$ and columns $c$ and to get determinants, if not in a $2 \times 2$ matrix form then we'll need to create submatrices to find their determinants to find the final answer:
+
+$det = a \cdot \begin{bmatrix} e & f \\ h & i \end{bmatrix} - b \cdot \begin{bmatrix} d & f \\ g & i \end{bmatrix} + c \cdot \begin{bmatrix} d & e \\ g & h \end{bmatrix}$
+
+We see that for a $3 \times 3$ matrix, its determinant is found through the addition and subtraction of 3 submatrices. but what if the matrix is bigger? then that means we have more submatrices to solve but then how do know the next signage? 
+
+Well we can find its cofactor, which is usually in an alternating state of plus and minus signs to determine its signage but that is inefficient so we can alternatively find the signage by 
+
+$C^{ij} = (-1)^{i+j}M^{i+j}$
+
+$i, j$ represents rows ($i$) and column ($j$) so that we can find an coefficient's cofactor by applying the formula and substituting in its row and column location 
 
 ## n x n Matrix Determinant
 [khan acad vid](https://www.khanacademy.org/math/linear-algebra/matrix-transformations/inverse-of-matrices/v/linear-algebra-nxn-determinant)
@@ -235,8 +251,6 @@ so then after its put into upper triangular form the determinant can be solved:
 $-(1 \cdot 3 \cdot 2 \cdot 7) = -42$
 
 $\therefore det(A) = -42$
-
-
 
 ## Determinant as Scaling factor
 [khan acad vid](https://www.khanacademy.org/math/linear-algebra/matrix-transformations/determinant-depth/v/linear-algebra-determinant-as-scaling-factor)

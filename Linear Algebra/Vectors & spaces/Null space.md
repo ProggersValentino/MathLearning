@@ -39,10 +39,9 @@ Then $A$ would be linearly independent
 
 Nullity is defined as the number of **non-pivot columns** within the [reduce row echelon form](Reduced%20Row%20Echelon%20with%20Matrix%20Row%20Operations) of a matrix:
 
-
-
 ![[Pasted image 20260702174654.png]]
 
+If you add the nullity with the [rank](Column%20Space) then you'll get the total amount of columns within the matrix 
 ## Left Null Space 
 [khan acad vid](https://www.khanacademy.org/math/linear-algebra/matrix-transformations/matrix-transpose/v/linear-algebra-rowspace-and-left-nullspace)
 

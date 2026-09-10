@@ -5,7 +5,9 @@ Linear Combinations denotes a combination of **scalar multiplication** and **vec
 
 $\vec{v} = (x \; \vec{p}) + (y \; \vec{q}) + (z \; \vec{r})$
 
-The $x,y,z$ is a **coordinate vector** (where all of its components represent scalars) and vectors $\vec{p}, \vec{q}, \vec{r}$ are our [basis vectors](Linear%20Subspaces) which define each direction in a given $R^n$, in the above formula, we are working in $R^3$. The resulting new vector is then a combination of its basis vectors expanded by the coordinate vector. 
+The $x,y,z$ is a [coordinate vector](Coordinates%20with%20respect%20to%20a%20basis) and vectors $\vec{p}, \vec{q}, \vec{r}$ are our [basis vectors](Linear%20Subspaces) which define each direction in a given $R^n$, in the above formula, we are working in $R^3$. 
+
+  The resulting new vector is then a combination of its basis vectors expanded by the coordinate vector.  
 
 A linear combination can also be described as given the basis vectors $p,q,r$, I want to move to a new point of $n$ by $\vec{c} = (x,y,z)$ 
 
@@ -19,6 +21,8 @@ $2 \cdot \vec{a} + 1 \cdot \vec{b} = [c_1, c_2]$
 
 ![[Pasted image 20260612123631.png]]
 so then we can say that the **span** of $\vec{a}$ and $\vec{b}$ can equal of all $R_2$
+
+### Span
 
 A **span** confirms whether linear combinations from a set of vectors can represent all real-values within $R^n$ or only a particular set of vectors which is represented:
 

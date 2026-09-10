@@ -7,9 +7,13 @@ we already know that:
 and that there are different types that are either vector quantities or non-vector quantities:
 ![[Intro To Vectors and Scalars#^d77baf]]
 
-but in Linear Algebra, Vectors are generally represented like matrices:
+Vectors can also be represented in [matrix](Matrices) form where they are known as **row vectors or column vectors** instead of their common notation of $(x,y)$:
 
-$\begin{bmatrix} x \\ y \end{bmatrix}$ instead of $(x, y)$ which is more associated with points 
+| Vector type   | size         | example                                                     |
+| ------------- | ------------ | ----------------------------------------------------------- |
+| Row Vector    | $1 \times n$ | $\vec{r} = \begin{bmatrix} r_1 & r_2 & r_3 \end{bmatrix}$   |
+| Column Vector | $n \times 1$ | $\vec{c} = \begin{bmatrix} c_1 \\ c_2 \\ c_3 \end{bmatrix}$ |
+
 
 
 #### What is a point?
