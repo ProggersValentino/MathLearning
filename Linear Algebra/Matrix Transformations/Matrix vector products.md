@@ -30,7 +30,7 @@ And with linear transformations, these have a very unique property in that, if m
 
 ![[Pasted image 20260713125731.png]]
 
-Additionally, **identity matrices** are generally referred to as [basis vectors](Linear%20Subspaces), more specifically orthonormal basis vectors. 
+Additionally, **identity matrices** are generally referred to as [basis vectors](Linear%20Subspaces), more specifically [orthonormal basis vectors](Orthonormal%20Bases). 
 
 Which if we look at each individual column vector within of the identity matrix, its clear that each vector is perpendicular to the other vectors AND they are [linearly independent](Linear%20Independence) 
 

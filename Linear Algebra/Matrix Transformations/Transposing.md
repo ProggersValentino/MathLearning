@@ -1,3 +1,4 @@
+[game math chpt 4.1.4](https://gamemath.com/book/matrixintro.html)
 
 
 ## Matrices
@@ -6,6 +7,7 @@
 A **matrix transpose** is the process of swapping a matrix's rows and columns. So if you have matrix $A$ being a $4 \times 2$ matrix then when transposed it becomes a $2 \times 4$ matrix where the $4$ rows become the columns and the $2$ columns become the rows. 
 
 A transpose of a matrix is represented like $A^T$ 
+
 ![[Pasted image 20260804140259.png]]
 
 For instance, if we have matrix $C$ which is a $4 \times 3$ matrix which consist of:
@@ -13,6 +15,11 @@ For instance, if we have matrix $C$ which is a $4 \times 3$ matrix which consist
 
 So then if take the transpose of $C$ ($C^T$) then it will become a $3 \times 4$ matrix where the $4$ rows become the columns and the $3$ columns become the rows
 ![[Pasted image 20260804142427.png]]
+
+
+A matrix transpose has a powerful representation where it can represent the [inverse of the matrix](Inverse%20Matrices) ($A^{-1}$) if the matrix is [orthogonal](Orthogonal%20Matrices) simplifying a lot of computations.
+
+$A \; is \; orthogonal \Longleftrightarrow M^T = M^{-1}$
 
 ### Determinant of transpose
 [khan acad vid](https://www.khanacademy.org/math/linear-algebra/matrix-transformations/matrix-transpose/v/linear-algebra-determinant-of-transpose)

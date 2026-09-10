@@ -1,4 +1,4 @@
-[khan acad vid](https://www.khanacademy.org/math/linear-algebra/matrix-transformations/lin-trans-examples/v/linear-transformation-examples-rotations-in-r2)
+[khan acad vid](https://www.khanacademy.org/math/linear-algebra/matrix-transformations/lin-trans-examples/v/linear-transformation-examples-rotations-in-r2), [game math chapt 5.1.1](https://gamemath.com/book/matrixtransforms.html)
 
 Rotational linear transformations, in mathematics, is the rotation of any $\vec{x}$ in a **counter-clockwise direction** by $\theta$ **degrees** which follows the notation of 
 
@@ -65,9 +65,11 @@ To find out the rotation result for each vector, we'll need to find the image of
 
 The process to finding the image is the same as if were to do it in $R^2$ except the image depends on what axis is being rotated.
 
-How the rotation of axis works is whatever axis you want to rotate on, its direction stays the same and the other two axis change based on the rotation. 
+How the rotation of an axis works is whatever axis you want to rotate on, its direction stays the same and the other two axis change based on the rotation. 
 
 So if we want to rotate on the $x$-axis then the $y$ and $z$-axis vector directions will change
+
+![[Pasted image 20260812130905.png]]
 
 To figure out the image for rotating on the $x$-axis, we'll do what we did previously by taking $I_3$ and breaking it into $3$ different transformations to make it easier to figure out:  
 ![[Pasted image 20260717123800.png]]
@@ -79,8 +81,81 @@ $A = \begin{bmatrix} 1 & 0 & 0 \\ 0 & - & - \\ 0 & - & - \end{bmatrix}$
 Which now we can figure out the $y$ and $z$ directions. 
 ![[Pasted image 20260717124619.png]]
 
-So then we apply our rotations being counter-clockwise because we're dealing in right-handed coordinate space, and apply the same process we did in $R^2$ where we figure out whether the $y$ and $z$ components are $sine$ or $cosine$ which then the final result will look like:
+So then we apply our rotations being counter-clockwise, because we're dealing in right-handed coordinate space, and apply the same process we did in $R^2$ where we figure out whether the $y$ and $z$ components are $sine$ or $cosine$ which then the final result will look like:
 ![[Pasted image 20260717124920.png]]
 
-So now any vector we want to rotate on the $x$-axis, we apply this image under the $3Rot\theta$ transformation
+So now any vector we want to rotate on the $x$-axis, we apply this image under the $3Rot\theta$ transformation.
+
+We can apply the same process to the rest of the axis' 
+
+**Left-hand**
+
+| Axis Rotation | Matrix                                                                                                                   | Visualization                        |
+| ------------- | ------------------------------------------------------------------------------------------------------------------------ | ------------------------------------ |
+| $x$-axis      | $Rot(\theta) = \begin{bmatrix} 1 & 0 & 0 \\ 0 & cos\theta & -sin(\theta) \\ 0 & sin(\theta) & cos(\theta) \end{bmatrix}$ | ![[Pasted image 20260812130905.png]] |
+| $y$-axis      | $A = \begin{bmatrix} cos(\theta) & 0 & -sin(\theta) \\ 0 & 1 & 0 \\ sin(\theta) & 0 & cos(\theta) \end{bmatrix}$         | ![[Pasted image 20260812140414.png]] |
+| $z$-axis      | $A = \begin{bmatrix} cos(\theta) & sin(\theta) & 0 \\ -sin(\theta) & cos(\theta) & 0 \\ 0 & 0 & 1 \end{bmatrix}$         | ![[Pasted image 20260812140416.png]] |
+
+
+## Rotating on Arbitrary Axis
+[game math chapt 5.1.3](https://gamemath.com/book/matrixtransforms.html#rotation_3d_arbitrary_axis)
+
+We can also do a [linear transformation](Function) where we can rotate vectors on an arbitrary axis that might be part of an [object's space](Multiple%20Coordinate%20Spaces) which can be represented as
+
+$R(\hat{n}, \theta) = \vec{v}\;'$
+
+$\vec{v} \; ' = R\vec{v}$
+
+Meaning given the arbitrary axis ($\hat{n}$) we can find a rotated vector ($\vec{v}\;'$) when multiplying the transformation by any vector
+
+This is essentially solving a problem in a plane that is perpendicular to $\hat{n}$ 
+
+![[Pasted image 20260812155637.png]]
+
+To solve for $\vec{v}\;'$, first, we need to break down $\vec{v}$ to the vectors that make up $\vec{v}$ when added together which is a vector **parallel** to $\hat{n}$ and a vector **perpendicular** to $\hat{n}$
+
+$\vec{v} = \vec{v_\parallel} + \vec{v_\perp}$
+
+The perpendicular vector to $\hat{n}$ is the [projection](Projections) of $\vec{v}$ onto the line $\hat{n}$ which can be found following the equation
+![[Linear Algebra/Matrix Transformations/Projections#^projectionRuleDef|Projections]]
+
+which then the perpendicular vector is just the orthogonal vector from the projection which can be solved by
+
+$\vec{v}_\perp = \vec{v} - \vec{v}_\parallel$ 
+
+We also need a vector $\vec{w}$ which is a vector perpendicular to both $\hat{n}$ and $\vec{v}_\perp$ which defines a 2D like space where the basis vectors perpendicular to $\hat{n}$ represent axis within the local space being  $\vec{w}$ represents the $y$-axis and $\vec{v}_\perp$ represents the $x$-axis. 
+
+$\vec{w}$ can be found using the [cross product](Cross%20Product) between $\hat{n}$ and $\vec{v}_\perp$  
+
+$\vec{w} = \hat{n} \times \vec{v}_\perp$
+
+Allowing us to figure out the rotation of $\vec{v}_\perp$
+
+$\vec{v}_\perp \;' = cos\theta\vec{v}_\perp + sin\theta\vec{w}$
+$\vec{v}_\perp \; ' = cos\theta(\vec{v} - Proj_\hat{n}(\vec{v})) + sin\theta(\vec{v}_\perp \times \hat{n})$
+
+![[Pasted image 20260812160923.png]]
+
+so then to finally find the new vector rotated ($\vec{v}\;'$) we just need to apply the vector addition with the $\vec{v}_\parallel$
+
+$\vec{v}\;' = \vec{v}_\perp\;' + \vec{v}_\parallel$
+$\vec{v}\;' = cos\theta(\vec{v} - Proj_\hat{n}(\vec{v})) + sin\theta(\hat{n} \times \vec{v}_\perp) + Proj_\hat{n}(\vec{v})$
+$\vec{v}\;' = cos\theta(\vec{v} - (\vec{v} \cdot \hat{n})\hat{n}) + sin\theta(\hat{n} \times \vec{v}_\perp) + (\vec{v} \cdot \hat{n})\hat{n})$
+
+which now we can apply the equation to each basis vectors and using algebra we can find our final equation for $\vec{p}$
+![[Pasted image 20260812170907.png]]
+
+and now applying the same algebra to $\vec{q}, \vec{r}$ we get final equations
+![[Pasted image 20260812174400.png]]
+![[Pasted image 20260812174412.png]]
+
+which now that we have the each column vector of $\vec{p}, \vec{q}, \vec{r}$ we can combine them into one transformation matrix:
+
+$R = \Large{\begin{bmatrix} n_x^2(1 - cos\theta) + cons\theta & n_yn_x(1 - cos\theta) - n_z sin\theta & n_zn_x(1 - cos\theta) + n_ysin\theta \\ n_xn_y(1 - cos\theta) + n_zsin\theta & n_y^2(1 - cos\theta) + cos\theta & n_zn_y(1 - cos\theta) - n_xsin\theta \\ n_xn_z(1 - cos\theta) - n_ysin\theta & n_yn_z(1 - cos\theta) + n_xsin\theta & n_z^2(1 - cos\theta) + cos\theta \end{bmatrix}}$
+
+So now we are able to find any rotated vector given the [object space](Multiple%20Coordinate%20Spaces) axis and angle by multiplying matrix $R$ by the initial vector
+
+${\begin{bmatrix} n_x^2(1 - cos\theta) + cons\theta & n_yn_x(1 - cos\theta) - n_z sin\theta & n_zn_x(1 - cos\theta) + n_ysin\theta \\ n_xn_y(1 - cos\theta) + n_zsin\theta & n_y^2(1 - cos\theta) + cos\theta & n_zn_y(1 - cos\theta) - n_xsin\theta \\ n_xn_z(1 - cos\theta) - n_ysin\theta & n_yn_z(1 - cos\theta) + n_xsin\theta & n_z^2(1 - cos\theta) + cos\theta \end{bmatrix} \begin{bmatrix} v_1 \\ v_2 \\ v_3 \end{bmatrix}} = R\vec{v}$
+
+
 
